@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sobre Você </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Sobre Você</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verify()">
+            </p>
+        </div>
+        <div id="res">
+            Resultado
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Letícia Awawdeh </p>
+    </footer>
+    <script src="script02.js"></script>
+</body>
+</html>
